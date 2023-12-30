@@ -13,6 +13,11 @@ body{
     background-attachment: fixed;
 }
 
+*{
+    margin:0;
+    padding:0;
+}
+
 .logo{
     text-align: right ;
     font-size: x-large;
