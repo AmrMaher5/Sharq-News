@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 .head{
     text-align: right ;
@@ -97,7 +97,7 @@ h1 {
     color: #4958ff;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: auto;
     z-index: 999;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     
