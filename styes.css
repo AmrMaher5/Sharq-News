@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    text-align: right ;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+
+.logo{
+    text-align: right ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #4958ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+div{
+    padding: 100px 20px;
+}
+
+.news{
+    margin: 34px;
+    display: flex;
+}
+
+.news .box{
+    width: 100%;
+    margin-bottom: 2px;
+    justify-content: center;
+    padding: 2px;
+}
+
+.video{
+    justify-content: center;
+    text-align: center;
+}
+.news section{
+    width: 21.25em;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 0.7);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.news img{
+    height: 250px;
+    width: 350px;
+}
+
+.news h2{
+    text-align: left;
+    font-size: 80%;
+}
+
+.news p{
+    height: 150px;
+    width: 350px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.end{
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    color: #4958ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.end p{
+    text-align: center;
+}
+
+.end ul li a{
+    color: black;
+    text-align: center ;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+h1{
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.technology{
+    margin: 34px;
+    display: flex;
+}
+
+.technology .box{
+    width: 100%;
+    margin-bottom: 2px;
+    justify-content: center;
+    padding: 2px;
+}
+
+.technology section{
+    width: 21.25em;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 0.7);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    
+}
+
+.technology img{
+    height: 250px;
+    width: 350px;
+}
+
+.technology h2{
+    text-align: left;
+    font-size: 80%;
+}
+
+.technology p{
+    height: 150px;
+    width: 350px;
+    text-align: left;
+    font-size: 16px;
+}
