@@ -4,6 +4,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
+*{
+    margin:0;
+    padding:0;
+}
 .head{
     text-align: right ;
     margin-right: 20px;
