@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, sans-serif;
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 .head{
     text-align: right ;
@@ -11,11 +16,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-attachment: fixed;
-}
-
-*{
-    margin:0;
-    padding:0;
 }
 
 .logo{
@@ -97,7 +97,7 @@ h1 {
     color: #4958ff;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
+    padding: 15px 30px;
     z-index: 999;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     
