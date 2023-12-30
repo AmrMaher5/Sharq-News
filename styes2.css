@@ -42,8 +42,8 @@ header {
 }
 
 div{
-    padding: 50px 20px;
-    margin: 10px 20px;
+    padding:auto;
+    margin: auto;
 }
 
 .box{
