@@ -1,118 +1,85 @@
-*{
+/* Resetting some default styles */
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: Arial, sans-serif;
-    text-align: left ;
-}
-.head{
-    text-align: right ;
-    margin-right: 20px;
-    padding-right: 20px;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-attachment: fixed;
+
+/* Setting a background color and font styles */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    color: #333;
 }
 
-.logo{
-    text-align: right ;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-attachment: fixed;
-}
-
+/* Styling the header */
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ffffff;
-    color: #4958ff;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.head a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Styling the box containing news details */
+.box {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.box h1 {
+    color: #333;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.box h2, .box p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Styling the footer */
+.end {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.end ul {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    z-index: 999;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-div{
-    padding: 50px 20px;
-    margin: 10px 20px;
+.end li {
+    margin: 0 10px;
 }
 
-.box{
-    border: 100px #4958ff ;
-    box-shadow: 0px 40px 10px #3a3737;
+.end a {
+    color: white;
+    text-decoration: none;
 }
 
-.box h1{
-    text-align: center;
-}
-
-.box h2{
-    text-align: center;
-}
-
-.box h3{
-    text-align: center;
-}
-
-.box img{
-    margin-left: 25% ;
-    margin-right: 50% ;
-    text-align: center;
-}
-
-.box p{
-    text-align: right;
-}
-
-.box li{
-    text-align: left ;
-    margin-left: 5% ; 
-}
-
-.box table{
-    text-align: center;
-    margin-left: 40% ;
-    border: 5px #3a3737 solid;
-}
-
-.box tr{
-    text-align: right;
-    margin-left: 40% ;
-    border: 5px #3a3737 solid;
-}
-
-.box  td{
-    border: 1px #3a3737 solid;
-}
-
-.end{
-    background-color: rgb(63, 63, 63);
-    width: 100%;
-    color: #4958ff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    z-index: 999;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    
-}
-
-.end p{
-    text-align: center;
-}
-
-.end ul li a{
-    color: black;
-    text-align: right ;
-    margin-right: 20px;
-    padding-right: 20px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
+/* Adding some space at the bottom of the page */
+body {
+    margin-bottom: 40px;
 }
