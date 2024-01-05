@@ -105,3 +105,19 @@ body {
         margin: 0 5px;
     }
 }
+
+/* Media query for screens with a width of 600px */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for screens with a width of 600px here */
+    .box {
+        padding: 15px;
+    }
+
+    .video h2 {
+        font-size: 22px;
+    }
+
+    .end li {
+        margin: 0 8px;
+    }
+}
