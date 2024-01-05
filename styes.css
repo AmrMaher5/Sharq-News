@@ -1,20 +1,15 @@
-/* Resetting some default styles */
-body, h1, h2, p, ul, li {
+/* الأسلوب العام */
+body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-/* Setting a background color and font styles */
-body {
     background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
 }
 
-/* Styling the header */
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -24,100 +19,98 @@ header {
     font-size: 24px;
 }
 
-.head a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+.head {
+    margin-top: 10px;
 }
 
-/* Styling the video section */
+.head a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
 .video {
+    text-align: center;
     margin: 20px;
 }
 
 .video h2 {
+    font-family: 'Staatliches', cursive;
     color: #333;
 }
 
-/* Styling the news and technology sections */
-.news, .technology {
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* أسلوب الأخبار والتكنولوجيا */
+.news,
+.technology {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 20px;
 }
 
 .box {
+    width: 30%;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .box img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-/* Styling the footer */
+.box h2 {
+    font-family: 'Staatliches', cursive;
+    color: #333;
+    margin-top: 10px;
+}
+
+.box p {
+    color: #555;
+}
+
+/* أسلوب الفوتر */
 .end {
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 15px;
 }
 
 .end ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    padding: 0;
 }
 
-.end li {
+.end ul li {
+    display: inline;
     margin: 0 10px;
 }
 
-.end a {
+.end ul li a {
     color: white;
     text-decoration: none;
 }
 
-/* Adding some space at the bottom of the page */
-body {
-    margin-bottom: 40px;
-}
-
-/* Media query for screens with a width of 400px */
-@media screen and (max-width: 400px) {
-    /* Adjust styles for smaller screens here */
-    .box {
-        padding: 10px;
-    }
-
-    .video h2 {
-        font-size: 18px;
-    }
-
-    .end li {
-        margin: 0 5px;
-    }
-}
-
-/* Media query for screens with a width of 600px */
+/* وسائط الاستجابة للشاشات بعرض 400px و600px */
 @media screen and (max-width: 600px) {
-    /* Adjust styles for screens with a width of 600px here */
     .box {
-        padding: 15px;
+        width: 100%;
     }
+}
 
-    .video h2 {
-        font-size: 22px;
-    }
-
-    .end li {
-        margin: 0 8px;
+@media screen and (max-width: 400px) {
+    .box {
+        width: 100%;
     }
 }
