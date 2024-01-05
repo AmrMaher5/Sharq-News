@@ -1,159 +1,91 @@
-*{
+/* Resetting some default styles */
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.head{
-    text-align: right ;
-    margin-right: 20px;
-    padding-right: 20px;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-attachment: fixed;
+/* Setting a background color and font styles */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
 }
 
-.logo{
-    text-align: right ;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-attachment: fixed;
-}
-
+/* Styling the header */
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ffffff;
-    color: #4958ff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    z-index: 999;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-div{
-    padding: 100px 20px;
-}
-
-.news{
-    margin: 34px;
-    display: flex;
-}
-
-.news .box{
-    width: 100%;
-    margin-bottom: 2px;
-    justify-content: center;
-    padding: 2px;
-}
-
-.video{
-    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
     text-align: center;
 }
-.news section{
-    width: 21.25em;
-    box-shadow: 0 5px 20px rgba(1, 1, 1, 0.7);
-    border-radius: 10px;
-    padding: 25px;
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.head a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Styling the video section */
+.video {
     margin: 20px;
-    
 }
 
-h1 {
-    text-align: center;
-    background-attachment: fixed;
+.video h2 {
+    color: #333;
 }
 
-.news img{
-    height: 250px;
-    width: 350px;
-}
-
-.news h2{
-    text-align: left;
-    font-size: 80%;
-}
-
-.news p{
-    height: 150px;
-    width: 350px;
-    text-align: left;
-    font-size: 16px;
-}
-
-.end{
-    background-color: rgb(63, 63, 63);
-    width: 100%;
-    color: #4958ff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    z-index: 999;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    
-}
-
-.end p{
-    text-align: center;
-}
-
-.end ul li a{
-    color: black;
-    text-align: center ;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
-}
-
-h1{
-    text-align: center;
-    background-attachment: fixed;
-}
-
-.technology{
-    margin: 34px;
+/* Styling the news and technology sections */
+.news, .technology {
     display: flex;
-}
-
-.technology .box{
-    width: 100%;
-    margin-bottom: 2px;
-    justify-content: center;
-    padding: 2px;
-}
-
-.technology section{
-    width: 21.25em;
-    box-shadow: 0 5px 20px rgba(1, 1, 1, 0.7);
-    border-radius: 10px;
-    padding: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 20px;
-    
 }
 
-.technology img{
-    height: 250px;
-    width: 350px;
+.box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.technology h2{
-    text-align: left;
-    font-size: 80%;
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-.technology p{
-    height: 150px;
-    width: 350px;
-    text-align: left;
-    font-size: 16px;
+/* Styling the footer */
+.end {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.end ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.end li {
+    margin: 0 10px;
+}
+
+.end a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Adding some space at the bottom of the page */
+body {
+    margin-bottom: 40px;
 }
