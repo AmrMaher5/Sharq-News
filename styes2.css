@@ -1,21 +1,15 @@
-/* Resetting some default styles */
-body, h1, h2, p, ul, li {
+/* الأسلوب العام */
+body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 
-/* Setting a background color and font styles */
-body {
-    background-color: #f8f8f8;
-    font-family: 'Lato', sans-serif;
-    color: #333;
-}
-
-/* Styling the header */
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -25,81 +19,65 @@ header {
     font-size: 24px;
 }
 
-.head a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+.head {
+    margin-top: 10px;
 }
 
-/* Styling the box containing news details */
+.head a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
 .box {
-    margin: 20px;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-.box h1 {
-    color: #333;
 }
 
 .box img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-.box h2, .box p {
-    color: #555;
     margin-bottom: 15px;
 }
 
-/* Styling the footer */
+/* أسلوب الفوتر */
 .end {
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 15px;
 }
 
 .end ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    padding: 0;
 }
 
-.end li {
+.end ul li {
+    display: inline;
     margin: 0 10px;
 }
 
-.end a {
+.end ul li a {
     color: white;
     text-decoration: none;
 }
 
-/* Adding some space at the bottom of the page */
-body {
-    margin-bottom: 40px;
-}
-
-/* Media query for screens with a width of 400px */
-@media screen and (max-width: 400px) {
-    /* Adjust styles for smaller screens here */
+/* وسائط الاستجابة للشاشات بعرض 600px */
+@media screen and (max-width: 600px) {
     .box {
         padding: 10px;
     }
+}
 
-    .box h1 {
-        font-size: 20px;
-    }
-
-    .box h2, .box p {
-        font-size: 14px;
-    }
-
-    .end li {
-        margin: 0 5px;
+/* وسائط الاستجابة للشاشات بعرض 400px */
+@media screen and (max-width: 400px) {
+    .box {
+        padding: 5px;
     }
 }
