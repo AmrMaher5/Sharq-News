@@ -89,3 +89,19 @@ header {
 body {
     margin-bottom: 40px;
 }
+
+/* Media query for screens with a width of 400px */
+@media screen and (max-width: 400px) {
+    /* Adjust styles for smaller screens here */
+    .box {
+        padding: 10px;
+    }
+
+    .video h2 {
+        font-size: 18px;
+    }
+
+    .end li {
+        margin: 0 5px;
+    }
+}
