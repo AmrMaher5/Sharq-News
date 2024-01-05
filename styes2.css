@@ -83,3 +83,23 @@ header {
 body {
     margin-bottom: 40px;
 }
+
+/* Media query for screens with a width of 400px */
+@media screen and (max-width: 400px) {
+    /* Adjust styles for smaller screens here */
+    .box {
+        padding: 10px;
+    }
+
+    .box h1 {
+        font-size: 20px;
+    }
+
+    .box h2, .box p {
+        font-size: 14px;
+    }
+
+    .end li {
+        margin: 0 5px;
+    }
+}
